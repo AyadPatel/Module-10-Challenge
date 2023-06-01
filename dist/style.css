@@ -1,0 +1,51 @@
+.team-header {
+    background-color: #d73b3b;
+    color: #fff;
+    padding: 50px;
+}
+
+.employee-card {
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+
+.card-header {
+    background-color: #016ad3;
+    border-radius: 0;
+}
+
+.card-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 0;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #c3c2c2;
+    border-radius: 0;
+}
+
+.list-group-item {
+    border: none;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+    border-radius: 0;
+}
+
+.team-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .employee-card {
+        width: 100%;
+    }
+}
